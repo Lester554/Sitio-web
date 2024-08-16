@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #aed6f1;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: #2874a6;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+}
+
+.img1{
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse; /* Asegura que los bordes de las celdas se colapsen en uno solo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2f3f4;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Añade bordes a las celdas */
+}
+th {
+    background-color: #2874a6;
+    color: ;
+}
+tr:nth-child(even) {
+    background-color: #cacfd2;
+}
+tr:hover {
+    background-color: #cacfd2;
+}
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+}
